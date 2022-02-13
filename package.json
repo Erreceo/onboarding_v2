@@ -2,7 +2,7 @@
   "name": "onboarding",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rodrigoxiita.github.io/",
+  "homepage": "https://rodrigoxiita.github.io/onboarding_v2",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -33,7 +33,7 @@
     "eject": "react-scripts eject",
     "check": "prettier --check 'projectA/*.js' 'projectB/*.js'",
     "predeploy": "react-scripts build",
-    "deploy": "dh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
